@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <meta name="description" content="Hein Khant Zaw is an aspiring System Engineer and Web Developer creating reliable, user-friendly, and responsive digital solutions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Hein Khant Zaw home">
+        <i class="fab fa-github-alt"></i>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Change color theme">
+          <i class="bi bi-sun"></i>
+          <span class="bi-sun-text bi-moon-text">White</span>
+        </button>
+        <button class="language-toggle" id="languageToggle" type="button" aria-label="Change language">日本語</button>
+        <a class="btn nav-cta" href="#contact">Let's Talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">I am Hein Khant Zaw</p>
+          <h1>Aspiring System Engineer <span>& Web Developer</span></h1>
+          <p class="hero-text">I use programming and IT technologies to create reliable, user-friendly systems that solve real-world problems and improve people's lives.</p>
+          <div class="hero-actions">
+            <a href="ass/pdf/myCv.pdf" class="btn" download>Download CV</a>
+            <div class="social-icons" aria-label="Social links">
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/HeinKhant53" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="img/myPhoto.png" alt="Hein Khant Zaw portrait" width="550" height="400">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Services</h2>
+          <p>Developing reliable, scalable, and user-friendly systems.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Web Application Development</h3>
+            <p>Building user-friendly web applications using Java, HTML, CSS, JavaScript, and SQL.</p>
+            <div class="feature-list">
+              <span>Frontend Development</span>
+              <span>Backend Development</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>System Development</h3>
+            <p>Analyzing user needs and developing efficient systems to solve business challenges.</p>
+            <div class="feature-list">
+              <span>Requirement Analysis</span>
+              <span>Database Design</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Responsive Design</h3>
+            <p>Creating websites that work smoothly across desktops, tablets, and mobile devices.</p>
+            <div class="feature-list">
+              <span>Mobile-Friendly</span>
+              <span>User-Centered UI</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Maintenance & Improvement</h3>
+            <p>Enhancing existing systems through continuous updates and performance improvements.</p>
+            <div class="feature-list">
+              <span>Bug Fixing</span>
+              <span>Feature Enhancement</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <p>I am an aspiring system engineer who believes in using technology to solve social challenges.</p>
+        </div>
+
+        <ol class="approach-list">
+          <li><strong>01</strong><span>Understand users and their needs</span></li>
+          <li><strong>02</strong><span>Design effective solutions</span></li>
+          <li><strong>03</strong><span>Develop reliable systems</span></li>
+        </ol>
+
+        <div class="stats">
+          <div><strong>02+</strong><span>Years of Learning</span></div>
+          <div><strong>03+</strong><span>Projects Completed</span></div>
+          <div><strong>02+</strong><span>Team Projects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Skills</h2>
+          <p>Building practical solutions with clean code and modern technologies.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Programming Languages</h3>
+            <div class="tags">
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+              <span>HTML/CSS</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Development Skills</h3>
+            <div class="tags">
+              <span>Web Development</span>
+              <span>System Analysis</span>
+              <span>Database Design</span>
+              <span>Responsive UI</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Tools & Technologies</h3>
+            <div class="tags">
+              <span>MySQL</span>
+              <span>Java Swing</span>
+              <span>GitHub</span>
+              <span>VS Code</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Collaboration</h3>
+            <div class="tags">
+              <span>Team Projects</span>
+              <span>Problem Solving</span>
+              <span>Communication</span>
+              <span>Documentation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Projects</h2>
+          <p>A showcase of my academic and personal development projects.</p>
+        </div>
+
+        <div class="card-grid project-grid">
+          <article class="card project-card">
+            <a href="#" aria-label="Employee Management System project">
+              <img src="img/javaProject.png" alt="Employee Management System project">
+              <h3>Employee Management System</h3>
+              <p>A desktop application built with Java, Swing, and MySQL for managing employee information.</p>
+              <span class="btn">View Project</span>
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <a href="https://project1-fyf0.onrender.com/" target="_blank" aria-label="COVID-19 Testing and Medical Information Website">
+              <img src="img/medical.jpg" alt="COVID-19 Testing and Medical Information Website Project">
+              <h3>COVID-19 Testing and Medical Information Website</h3>
+              <p>A team project developed during the pandemic to provide COVID-19 testing services and medical information through a user-friendly interface. </p>
+              <span class="btn">View Project</span>
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <a href="https://school-project-5s0b.onrender.com" target="_blank" aria-label="Explore IT Careers">
+              <img src="img/itenvironment.jpg" alt="Explore IT Careers">
+              <h3>Explore IT Careers and Shape Your Future Website</h3>
+              <p>A project designed for international students, introducing IT careers and helping them plan their future paths.</p>
+              <span class="btn">View Project</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Let's Work Together</h2>
+          <p>Feel free to contact me for opportunities and collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="panel">
+            <h3>Send a Message</h3>
+            <form id="contactForm" action="https://formsubmit.co/ajax/heinkhantzaw5353@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" value="New Portfolio Inquiry">
+
+              <div class="two-column">
+                <label>
+                  <span>Name</span>
+                  <input type="text" name="name" required autocomplete="name">
+                </label>
+                <label>
+                  <span>Niche</span>
+                  <input type="text" name="niche" required autocomplete="organization">
+                </label>
+              </div>
+
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" required autocomplete="email">
+              </label>
+
+              <label>
+                <span>Budget</span>
+                <select name="budget" required>
+                    <option value="">Select budget</option>
+                    <option value="¥100,000 - ¥200,000">¥100,000 - ¥200,000</option>
+                    <option value="¥200,000 - ¥400,000">¥200,000 - ¥400,000</option>
+                    <option value="¥400,000 - ¥700,000">¥400,000 - ¥700,000</option>
+                    <option value="¥700,000+">¥700,000+</option>
+                    <option value="Not sure yet">Not sure yet</option>
+                </select>
+              </label>
+
+              <label>
+                <span>About your project</span>
+                <textarea name="message" rows="5"></textarea>
+              </label>
+
+              <div class="submit-row">
+                <button class="btn" type="submit">Submit</button>
+                <span id="statusMessage" role="status"></span>
+              </div>
+            </form>
+          </div>
+
+          <div class="panel contact-card">
+            <h3>Quick Contact</h3>
+            <img src="img/QR_542430.jpg" alt="Contact QR code" width="280" height="282">
+            <p><strong>Email me directly:</strong> <span id="emailText">heinkhantzaw5353@gmail.com</span></p>
+            <div class="email-actions">
+              <a class="btn" href="mailto:your-email@example.com">Send Email</a>
+              <button class="btn" id="copyEmailBtn" type="button">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Hein Khant Zaw</h2>
+      <p>Creating technology-driven solutions that improve people's lives.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/HeinKhant53" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+      <i class="fab fa-github-alt"></i>
+      <small>Copyright 2026 Hein Khant Zaw. All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
